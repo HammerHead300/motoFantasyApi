@@ -13,7 +13,23 @@ public class Driver {
 	private String name;
 	private String number;
 	private String championship;
+	private Integer championshipPosition;
 	private Integer price;
 	
+	public String getName() {
+		return name;
+	}
+	public String getNumber() {
+		return number;
+	}
+	public String getChampionship() {
+		return championship;
+	}
+	public Integer getChampionshipPosition() {
+		return championshipPosition;
+	}
+	public Integer getPrice() {
+		return price;
+	}
 	
 }
