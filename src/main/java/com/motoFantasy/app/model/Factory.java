@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 
-@Document(value = "Factory")
+@Document(value = "Factories")
 @Data
 public class Factory {
 	@Id

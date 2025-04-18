@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 
-@Document(value = "Driver")
+@Document(value = "Drivers")
 @Data
 public class Driver {
 	@Id
